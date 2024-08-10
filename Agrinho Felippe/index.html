@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Trucks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo à BR Trucks!!!</h1>
+        <p>Encontre o caminhão para qual for a suas necessidades.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Sobre Nós</h2>
+        <p>Temos uma loja focada na parte de caminhão, temos des de caminhões usados a caminhões novos. Oferecemos
+            caminhões baratos e em bom estado para o trabalho, é só comprar e andar, pneus novos, tanque cheio, e o
+            caminhão revisado.</p>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo de Caminhões</h2>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="img/Actros 2653.jpg" alt="Caminhão 1">
+                    <h3>Mercedes Actros 2653</h3>
+                    <p>Preço: R$ 1.261.600,00</p>
+                    <div class="description">
+                        <p>O Mercedes Actros 2653 é um caminhão robusto e eficiente, ideal para longas distâncias e
+                            transporte pesado. Equipado com um motor de 530cv e tecnologia avançada, oferece conforto e
+                            segurança.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Atego 3030.jpg" alt="Caminhão 2">
+                    <h3>Mercedes Atego 3030</h3>
+                    <p>Preço: R$ 241.858,00</p>
+                    <div class="description">
+                        <p>O Mercedes Atego 3030 combina desempenho e economia. Ideal para transporte urbano e regional,
+                            com excelente capacidade de carga e manobrabilidade.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/FNM.jpeg" alt="Caminhão 3">
+                    <h3>Fenemê</h3>
+                    <p>Preço: R$ 90.000,00</p>
+                    <div class="description">
+                        <p>O FNM é um caminhão clássico conhecido pela sua durabilidade e confiabilidade. Ideal para
+                            quem busca um veículo robusto com uma longa vida útil. Caminhão de um unico dono, bem cuidado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Mercedes 1111.jpg" alt="Caminhão 4">
+                    <h3>Mercedes L1111</h3>
+                    <p>Preço: R$ 55.000,00</p>
+                    <div class="description">
+                        <p>O Mercedes L1111 é um caminhão tradicional, conhecido pela sua robustez e confiabilidade.
+                            Ideal para quem busca um caminhão durável para diversos uso variados. Caminhão praticamente novo, bem pouco rodado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pzinha 310.jpg" alt="Caminhão 5">
+                    <h3>Scania P310</h3>
+                    <p>Preço: R$ 257.000,00</p>
+                    <div class="description">
+                        <p>O Scania P310 é conhecido por seu excelente desempenho e eficiência. Ideal para transporte
+                            regional com conforto e segurança.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/scania r540 23.png" alt="Caminhão 6">
+                    <h3>Scania R540</h3>
+                    <p>Preço: R$ 710.000,00</p>
+                    <div class="description">
+                        <p>O Scania R540 é um caminhão premium para transporte pesado, oferecendo potência e conforto
+                            excepcionais para longas distâncias.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/VOLVO FH.jpeg" alt="Caminhão 7">
+                    <h3>Volvo FH 540</h3>
+                    <p>Preço: R$ 983.164,00</p>
+                    <div class="description">
+                        <p>O Volvo FH 540 é um caminhão de alta performance, ideal para transporte internacional e com
+                            tecnologia de ponta para eficiência e conforto.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <p>Email: contato@BRTrucks.com.br</p>
+        <p>Telefone: (42) 3446-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BR Trucks. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
